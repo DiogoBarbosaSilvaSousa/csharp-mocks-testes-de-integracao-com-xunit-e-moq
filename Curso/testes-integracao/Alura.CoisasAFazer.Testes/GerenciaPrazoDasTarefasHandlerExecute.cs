@@ -57,5 +57,6 @@ namespace Alura.CoisasAFazer.Testes
             var tarefasEmAtraso = repo.ObtemTarefas(t => t.Status == StatusTarefa.EmAtraso);
             Assert.Equal(5, tarefasEmAtraso.Count());
         }
+       
     }
 }
